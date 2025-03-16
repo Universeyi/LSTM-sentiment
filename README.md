@@ -65,6 +65,34 @@ graphviz
    - Training process plots are saved as `training_process.png`
    - Detailed logs are saved in `training_log_[timestamp].txt`
 
+## Experimental Results
+
+### Model Architecture Visualization
+![Network Structure](network_structure.svg)
+
+### Training and Validation Performance
+![Training Process](training_process.png)
+The training process plot shows the model's learning curve, including:
+- Training and validation loss trends
+- Training and validation accuracy progression
+- Model convergence characteristics
+
+### Classification Performance
+![Confusion Matrix](confusion_matrix.png)
+The confusion matrix demonstrates the model's classification performance across different categories.
+
+### ROC Analysis
+![ROC Curves](roc_curves.png)
+The ROC curves show:
+- Individual class performance
+- Multi-class classification capability
+- Area Under Curve (AUC) metrics
+
+Key performance metrics:
+- Overall Accuracy: 80.28%
+- Significant improvement over baseline: ~12%
+- Strong performance across all classes as shown in ROC curves
+
 ## Visualization
 
 The model provides comprehensive visualization tools for model analysis:
