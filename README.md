@@ -80,7 +80,15 @@ All visualization results are automatically saved during the training process. Y
 
 ## Reference
 
-[Advancing Sentiment Analysis: A Novel LSTM Framework with Multi-head Attention]
+'''@misc{yi2025advancingsentimentanalysisnovel,
+      title={Advancing Sentiment Analysis: A Novel LSTM Framework with Multi-head Attention}, 
+      author={Jingyuan Yi and Peiyang Yu and Tianyi Huang and Xiaochuan Xu},
+      year={2025},
+      eprint={2503.08079},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2503.08079}, 
+}'''
 
 ## License
 
