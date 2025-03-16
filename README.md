@@ -1,5 +1,30 @@
 # LSTM with Multi-head Attention for Sentiment Analysis
 
+## About
+
+This repository contains the official implementation of the paper:
+
+> **Advancing Sentiment Analysis: A Novel LSTM Framework with Multi-head Attention**  
+> Jingyuan Yi, Peiyang Yu, Tianyi Huang, Xiaochuan Xu  
+> arXiv:2503.08079 [cs.CL]  
+> [https://arxiv.org/abs/2503.08079](https://arxiv.org/abs/2503.08079)
+
+If you find this code useful in your research, please cite:
+
+```bibtex
+@misc{yi2025advancingsentimentanalysisnovel,
+      title={Advancing Sentiment Analysis: A Novel LSTM Framework with Multi-head Attention}, 
+      author={Jingyuan Yi and Peiyang Yu and Tianyi Huang and Xiaochuan Xu},
+      year={2025},
+      eprint={2503.08079},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2503.08079}, 
+}
+```
+
+## Overview
+
 This project implements a sentiment analysis model based on LSTM and multi-head attention mechanism. By integrating TF-IDF feature extraction and multi-head attention, the model significantly improves the performance of text sentiment analysis.
 
 ## Model Architecture
@@ -106,19 +131,6 @@ The model provides comprehensive visualization tools for model analysis:
 
 All visualization results are automatically saved during the training process. You can find these files in the project root directory after running `lstm_pytorch.py`.
 
-## Reference
-
-```
-@misc{yi2025advancingsentimentanalysisnovel,
-      title={Advancing Sentiment Analysis: A Novel LSTM Framework with Multi-head Attention}, 
-      author={Jingyuan Yi and Peiyang Yu and Tianyi Huang and Xiaochuan Xu},
-      year={2025},
-      eprint={2503.08079},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2503.08079}, 
-}
-```
 
 ## License
 
